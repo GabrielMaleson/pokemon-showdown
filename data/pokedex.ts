@@ -19499,6 +19499,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Water 3"],
 		gen: 9,
 	},
+	killpain: {
+		num: -73,
+		name: "General Kill Pain",
+		types: ["Dark", "Fighting"],
+		baseStats: {hp: 75, atk: 120, def: 95, spa: 75, spd: 80, spe: 110},
+		abilities: {0: "Tinted Lens", 1: "Intimidate"},
+		heightm: 1.6,
+		weightkg: 65,
+		color: "Green",
+		eggGroups: ["Field"],
+		gen: 9,
+	},
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
 		num: -5000,
